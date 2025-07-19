@@ -8,3 +8,14 @@
     console.warn('Video element not found');
   }
 })();
+
+(function unBlackoutVideo() {
+  const video = document.querySelector('.html5-video-container video');
+  if (video) {
+    video.style.filter = '';
+    video.style.backgroundColor = '';
+    console.log('Video blacked out');
+  } else {
+    console.warn('Video element not found');
+  }
+})();
