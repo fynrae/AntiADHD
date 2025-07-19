@@ -19,7 +19,7 @@ Right now, this is in early development, but I sure I will continue developing t
 
 1. Open any YouTube video.
 2. Right-click → **Inspect** → Go to the **Console** tab.
-3. Copy the contents of the function `blackoutVideo` [`src/main.js`] and paste it into the console.
+3. Copy the contents of the function `blackoutVideo` in [`src/main.js`] and paste it into the console.
 4. Done! The video will go black, and you can focus on the audio.
 
 ### Unblacking out videos
